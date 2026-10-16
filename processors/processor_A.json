@@ -1,0 +1,123 @@
+{
+  "name": "Processor A",
+  "num_qubits": 5,
+  "ports": [
+    0,
+    4
+  ],
+  "ports_status": "participant_selected_not_official",
+  "architecture": "participant_designed_nonlinear_baseline",
+  "architecture_status": "custom_design_not_an_official_edge_list",
+  "coupling_map": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "coupling_edges_undirected": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "coupling_map_directed": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      2
+    ]
+  ],
+  "basis_gates": [
+    "rz",
+    "sx",
+    "x",
+    "cx"
+  ],
+  "noise": {
+    "enabled": true,
+    "model": "depolarizing_with_symmetric_readout",
+    "parameter_status": "illustrative_assumption_not_official",
+    "single_qubit_depolarizing_probability": 0.001,
+    "two_qubit_depolarizing_probability": 0.01,
+    "readout_error_probability": 0.02
+  },
+  "noise_model": {
+    "enabled": true,
+    "model": "depolarizing_with_symmetric_readout",
+    "parameter_status": "illustrative_assumption_not_official",
+    "single_qubit_depolarizing_probability": 0.001,
+    "two_qubit_depolarizing_probability": 0.01,
+    "readout_error_probability": 0.02
+  },
+  "benchmark_policy": {
+    "compare_connectivity_without_noise": true,
+    "apply_noise_only_in_separate_experiment": true
+  }
+}

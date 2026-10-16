@@ -1,0 +1,146 @@
+{
+  "description": "Four-qubit H2 noise-sensitivity experiment using a common illustrative noise model on two participant-designed connectivity graphs.",
+  "exact_reference_total_energy_hartree": -1.13730601483925,
+  "common_noise_model": {
+    "single_qubit_depolarizing_probability": 0.001,
+    "two_qubit_depolarizing_probability": 0.01,
+    "readout_error_probability": 0.02,
+    "official_processor_noise": false
+  },
+  "repeat_count": 3,
+  "shots_per_pauli_term": 8192,
+  "individual_runs": [
+    {
+      "processor": "Processor A",
+      "repeat": 1,
+      "simulator_seed": 42,
+      "shots_per_pauli_term": 8192,
+      "single_qubit_depolarizing_probability": 0.001,
+      "two_qubit_depolarizing_probability": 0.01,
+      "readout_error_probability": 0.02,
+      "estimated_electronic_energy_hartree": -1.7684200205053713,
+      "estimated_total_energy_hartree": -1.0484510260563917,
+      "absolute_error_from_exact_hartree": 0.08885498878285825,
+      "estimated_shot_standard_error_hartree": 0.00287023445675027,
+      "noise_parameters_official": false,
+      "hardware_execution": false
+    },
+    {
+      "processor": "Processor A",
+      "repeat": 2,
+      "simulator_seed": 123,
+      "shots_per_pauli_term": 8192,
+      "single_qubit_depolarizing_probability": 0.001,
+      "two_qubit_depolarizing_probability": 0.01,
+      "readout_error_probability": 0.02,
+      "estimated_electronic_energy_hartree": -1.7652911732128906,
+      "estimated_total_energy_hartree": -1.0453221787639109,
+      "absolute_error_from_exact_hartree": 0.09198383607533911,
+      "estimated_shot_standard_error_hartree": 0.0028925997415874096,
+      "noise_parameters_official": false,
+      "hardware_execution": false
+    },
+    {
+      "processor": "Processor A",
+      "repeat": 3,
+      "simulator_seed": 2026,
+      "shots_per_pauli_term": 8192,
+      "single_qubit_depolarizing_probability": 0.001,
+      "two_qubit_depolarizing_probability": 0.01,
+      "readout_error_probability": 0.02,
+      "estimated_electronic_energy_hartree": -1.7637088064575197,
+      "estimated_total_energy_hartree": -1.04373981200854,
+      "absolute_error_from_exact_hartree": 0.09356620283071004,
+      "estimated_shot_standard_error_hartree": 0.0028986899737828004,
+      "noise_parameters_official": false,
+      "hardware_execution": false
+    },
+    {
+      "processor": "Processor B",
+      "repeat": 1,
+      "simulator_seed": 42,
+      "shots_per_pauli_term": 8192,
+      "single_qubit_depolarizing_probability": 0.001,
+      "two_qubit_depolarizing_probability": 0.01,
+      "readout_error_probability": 0.02,
+      "estimated_electronic_energy_hartree": -1.7369718942773436,
+      "estimated_total_energy_hartree": -1.017002899828364,
+      "absolute_error_from_exact_hartree": 0.12030311501088597,
+      "estimated_shot_standard_error_hartree": 0.0032648812131831277,
+      "noise_parameters_official": false,
+      "hardware_execution": false
+    },
+    {
+      "processor": "Processor B",
+      "repeat": 2,
+      "simulator_seed": 123,
+      "shots_per_pauli_term": 8192,
+      "single_qubit_depolarizing_probability": 0.001,
+      "two_qubit_depolarizing_probability": 0.01,
+      "readout_error_probability": 0.02,
+      "estimated_electronic_energy_hartree": -1.7379010870434572,
+      "estimated_total_energy_hartree": -1.0179320925944775,
+      "absolute_error_from_exact_hartree": 0.1193739222447725,
+      "estimated_shot_standard_error_hartree": 0.0032757971101749143,
+      "noise_parameters_official": false,
+      "hardware_execution": false
+    },
+    {
+      "processor": "Processor B",
+      "repeat": 3,
+      "simulator_seed": 2026,
+      "shots_per_pauli_term": 8192,
+      "single_qubit_depolarizing_probability": 0.001,
+      "two_qubit_depolarizing_probability": 0.01,
+      "readout_error_probability": 0.02,
+      "estimated_electronic_energy_hartree": -1.7335739352636723,
+      "estimated_total_energy_hartree": -1.0136049408146928,
+      "absolute_error_from_exact_hartree": 0.12370107402455721,
+      "estimated_shot_standard_error_hartree": 0.0032905931129340706,
+      "noise_parameters_official": false,
+      "hardware_execution": false
+    }
+  ],
+  "results": [
+    {
+      "processor": "Processor A",
+      "experiment": "common_illustrative_noise_sensitivity_test",
+      "repeat_count": 3,
+      "shots_per_pauli_term": 8192,
+      "simulator_seeds": [
+        42,
+        123,
+        2026
+      ],
+      "mean_total_energy_hartree": -1.0458376722762808,
+      "sample_std_total_energy_hartree": 0.002397537199323648,
+      "mean_absolute_error_from_exact_hartree": 0.09146834256296914,
+      "exact_reference_total_energy_hartree": -1.13730601483925,
+      "single_qubit_depolarizing_probability": 0.001,
+      "two_qubit_depolarizing_probability": 0.01,
+      "readout_error_probability": 0.02,
+      "noise_parameters_official": false,
+      "hardware_execution": false
+    },
+    {
+      "processor": "Processor B",
+      "experiment": "common_illustrative_noise_sensitivity_test",
+      "repeat_count": 3,
+      "shots_per_pauli_term": 8192,
+      "simulator_seeds": [
+        42,
+        123,
+        2026
+      ],
+      "mean_total_energy_hartree": -1.0161799777458447,
+      "sample_std_total_energy_hartree": 0.0022779291465598456,
+      "mean_absolute_error_from_exact_hartree": 0.12112603709340523,
+      "exact_reference_total_energy_hartree": -1.13730601483925,
+      "single_qubit_depolarizing_probability": 0.001,
+      "two_qubit_depolarizing_probability": 0.01,
+      "readout_error_probability": 0.02,
+      "noise_parameters_official": false,
+      "hardware_execution": false
+    }
+  ]
+}

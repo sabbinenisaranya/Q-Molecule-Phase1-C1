@@ -1,0 +1,197 @@
+{
+  "name": "Processor B",
+  "num_qubits": 9,
+  "ports": [
+    0,
+    8
+  ],
+  "ports_status": "participant_selected_not_official",
+  "architecture": "participant_designed_heavy_hex_inspired",
+  "architecture_status": "custom_design_not_an_official_edge_list",
+  "coupling_map": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      3,
+      7
+    ]
+  ],
+  "coupling_edges_undirected": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      3,
+      7
+    ]
+  ],
+  "coupling_map_directed": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      7,
+      3
+    ]
+  ],
+  "basis_gates": [
+    "rz",
+    "sx",
+    "x",
+    "cx"
+  ],
+  "noise": {
+    "enabled": false,
+    "parameter_status": "not_specified_by_available_organizer_messages",
+    "reason": "Do not assume Processor A noise parameters also apply to Processor B."
+  },
+  "noise_model": {
+    "enabled": false,
+    "parameter_status": "not_specified_by_available_organizer_messages",
+    "reason": "Do not assume Processor A noise parameters also apply to Processor B."
+  },
+  "benchmark_policy": {
+    "baseline": "ideal_compilation_and_execution",
+    "routing_and_swap_overhead_must_be_measured": true
+  }
+}
